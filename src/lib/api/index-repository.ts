@@ -109,6 +109,10 @@ export interface UpdateProfileBody {
     display_name: string;
 }
 
+export interface UpdateProfileBody {
+    about_me: string;
+}
+
 export interface ModLogoCacheParams {
 	version?: string;
 	status?: ModStatus;

@@ -48,13 +48,9 @@
                 }}>
                 <div class="form-control">
                     <label for="display_name">Display name:</label>
-                    <input
-                        required
-                        minlength="2"
-                        type="text"
-                        value={self.display_name}
-                        name="display_name"
-                        id="display_name" />
+                    <input required minlength="2" type="text" value={self.display_name} name="display_name" id="display_name" />
+                    <label for="about">Display name:</label>
+                    <input required minlength="2" type="text" value={self.about} name="about" id="about" />
                 </div>
                 <div class="form-button">
                     <button type="submit" disabled={updatingSelf}>

@@ -2,6 +2,7 @@ export interface ServerDeveloper {
     id: number;
     username: string;
     display_name: string;
+    about: string;
     verified: boolean;
     admin: boolean;
     github_id: number;

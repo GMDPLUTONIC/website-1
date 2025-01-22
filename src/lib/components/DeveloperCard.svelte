@@ -16,6 +16,7 @@
                 alt="developer {developer.id}" />
             <div>
                 <p class="display-name">{developer.display_name}</p>
+                <p class="about">{developer.about}
                 <p class="username">
                     {developer.username} ({developer.id})
                 </p>
